@@ -9,33 +9,42 @@ import SearchProp from "../Components/SearchProp";
 import Recommendations from "../Components/Recommendations";
 import ContactForm from "../Components/ContactForm";
 import Features from '../Components/Features';
-//AOS SCROLL ANIMATION LIBRARY
+// AOS SCROLL ANIMATION LIBRARY
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-function Home() {
+type TextColor = 'black' | 'white';
 
+const textColor: Record<TextColor, string> = {
+    black: '#000000',
+    white: '#ffffff',
+};
+
+const gradients = {
+    'custom-gradient': 'linear-gradient(to right, #00985B, #000000)',
+    'white': '#ffffff',
+};
+
+interface Service {
+    id: number;
+    bg: keyof typeof gradients;
+    src: string;
+    title: string;
+    titleColor: TextColor;
+    tagline: string;
+}
+
+const services: Service[] = [
+    { id: 1, bg: 'custom-gradient', src: house, title: 'Property', titleColor: 'white', tagline: 'Your dream home has now become a reality. Buy a new home with the best facilities and a comfortable environment.' },
+    { id: 2, bg: 'white', src: property, title: 'Savings', titleColor: 'black', tagline: "Rent a beautiful house for your family, the best choice for your family's living space." },
+    { id: 3, bg: 'white', src: town, title: 'Community', titleColor: 'black', tagline: "Buy the perfect home at the best price with guaranteed quality from trusted sources." }
+];
+
+function Home() {
     useEffect(() => {
         AOS.init();
     }, []);
-
-    const gradients = {
-        'custom-gradient': 'linear-gradient(to right, #00985B, #000000)',
-        'white': '#ffffff',
-    };
-
-    const textColor = {
-        'black': '#000000',
-        'white': '#ffffff',
-    };
-
-    //map services
-    const services = [
-        { id: 1, bg: 'custom-gradient', src: house, title: 'Property', titleColor: 'white', tagline: 'Your dream home has now become a reality. Buy a new home with the best facilities and a comfortable environment.' },
-        { id: 2, bg: 'white', src: property, title: 'Savings', titleColor: 'black', tagline: "Rent a beautiful house for your family, the best choice for your family's living space." },
-        { id: 3, bg: 'white', src: town, title: 'Community', titleColor: 'black', tagline: "Buy the perfect home at the best price with guaranteed quality from trusted sources." }
-    ];
 
     return (
         <>
@@ -92,7 +101,7 @@ function Home() {
                         >
                             <div
                                 className="w-[80px] h-[80px] flex items-center justify-center rounded-full mb-4"
-                                style={{ background: service.titleColor }}
+                                style={{ background: textColor[service.titleColor] }}
                             >
                                 <img src={service.src} alt={service.title} className="w-[50px] h-[50px]" />
                             </div>
@@ -114,7 +123,7 @@ function Home() {
                 {/**search section */}
                 <SearchProp />
                 <Recommendations />
-                < Features />
+                <Features />
                 <ContactForm />
             </div>
         </>
