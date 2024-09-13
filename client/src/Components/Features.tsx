@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 function Features() {
   return (
@@ -30,6 +30,7 @@ function Features() {
           </div>
         </div>
         <div className='absolute top-1/2 left-0 transform -translate-y-1/2 w-10 h-10 flex items-center justify-center cursor-pointer'>
+        {/** *
           <div className='bg-green-600 hover:bg-green-700 transition-all duration-300 rounded-full'>
             <FontAwesomeIcon className='text-white w-5 h-5 md:hidden' icon={faCaretLeft} />
           </div>
@@ -39,6 +40,7 @@ function Features() {
             <FontAwesomeIcon className='text-white w-5 h-5 md:hidden' icon={faCaretRight} />
           </div>
         </div>
+        */}
       </div>
     </section>
   );

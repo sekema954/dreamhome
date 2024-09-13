@@ -18,23 +18,23 @@ const Agent = () => {
           </div>
 
           {/* Agent Details */}
-          <div className="flex flex-col justify-center p-6">
+          <div className="flex flex-row justify-center p-6">
             {/* Tabs */}
             <div className="flex flex-wrap border-b border-gray-300 mb-4">
               <button
-                className={`py-2 px-4 text-lg font-semibold ${activeTab === 'biography' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
+                className={`py-2 px-4 text-[12px] font-semibold ${activeTab === 'biography' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
                 onClick={() => setActiveTab('biography')}
               >
                 Biography
               </button>
               <button
-                className={`py-2 px-4 text-lg font-semibold ${activeTab === 'contact' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
+                className={`py-2 px-4 text-[12px] font-semibold ${activeTab === 'contact' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
                 onClick={() => setActiveTab('contact')}
               >
                 Contact
               </button>
               <button
-                className={`py-2 px-4 text-lg font-semibold ${activeTab === 'services' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
+                className={`py-2 px-4 text-[12px] font-semibold ${activeTab === 'services' ? 'border-b-2 border-green-500 text-green-500' : 'text-gray-600'}`}
                 onClick={() => setActiveTab('services')}
               >
                 Services

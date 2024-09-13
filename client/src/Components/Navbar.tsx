@@ -66,7 +66,7 @@ function Navbar() {
             </div>
         </nav>
         <div className={`flex items-center justify-center relative z-[1000] md:hidden transition-all duration-[.5s] bg-custom-bg bg-cover ${isOpen ? 'h-[200px]' : 'h-0'}`}>
-            <ul className={`leading-10 text-center ${isOpen ? 'block' : 'hidden'}`}>
+            <ul className={`leading-10 text-center text-white ${isOpen ? 'block' : 'hidden'}`}>
                 <a href="/">
                     <FontAwesomeIcon className='text-white' icon={faHouse}></FontAwesomeIcon>
                 </a>

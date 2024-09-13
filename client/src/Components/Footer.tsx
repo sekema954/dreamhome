@@ -14,13 +14,10 @@ export default function Footer() {
             <a href='/'>Home</a>
           </li>
           <li className='m-2 hover:text-green-500 transition-all duration-300'>
-            <a href='/findhome'>Find Home</a>
+            <a href='/search'>Find Home</a>
           </li>
           <li className='m-2 hover:text-green-500 transition-all duration-300'>
-            <a href='/findagent'>Find Agent</a>
-          </li>
-          <li className='m-2 hover:text-green-500 transition-all duration-300'>
-            <a href='/about'>About</a>
+            <a href='/agent'>About</a>
           </li>
           <li className='m-2 hover:text-green-500 transition-all duration-300'>
             <a href='/contact'>Contact</a>

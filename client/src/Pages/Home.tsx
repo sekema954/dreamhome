@@ -65,7 +65,7 @@ function Home() {
                                     <p><span className="font-[600]">DreamHome</span> is here to find the best home for you, whether for sale or for rent, with trustworthy sources."</p>
                                 </div>
                                 <div>
-                                    <a className="flex items-center justify-center md:block" href="/findhome">
+                                    <a className="flex items-center justify-center md:block" href="/search">
                                         <button className="w-[140px] h-[45px] bg-white text-green-700 transition-all duration-[.5s] hover:bg-green-200">Find a Home</button>
                                         <FontAwesomeIcon className="mx-5 text-[20px] drop" icon={faChevronRight} />
                                     </a>
