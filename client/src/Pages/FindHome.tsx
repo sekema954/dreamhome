@@ -24,8 +24,9 @@ export default function Findhome() {
 
         {/* Property Listings */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          {[...Array(5)].map((_, index) => (
-            <div key={index} className='bg-white shadow-lg rounded-md overflow-hidden'>
+          {[...Array(6)].map((_, index) => (
+            <a href='/listing'>
+                <div key={index} className='bg-white shadow-lg rounded-md overflow-hidden'>
               <div className='relative'>
                 <div className='aspect-w-4 aspect-h-3'>
                   <img 
@@ -34,16 +35,6 @@ export default function Findhome() {
                     alt='house' 
                   />
                 </div>
-                <button className='absolute top-1/2 left-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full'>
-                  <FontAwesomeIcon icon={faCaretLeft} />
-                </button>
-                <button className='absolute top-1/2 right-2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full'>
-                  <FontAwesomeIcon icon={faCaretRight} />
-                </button>
-                <FontAwesomeIcon 
-                  className='absolute top-4 right-4 text-red-500 text-2xl cursor-pointer'
-                  icon={faHeart} 
-                />
               </div>
               <div className='p-4'>
                 <h2 className='text-xl font-semibold mb-2'>Hunter's Ranch</h2>
@@ -64,6 +55,7 @@ export default function Findhome() {
                 </div>
               </div>
             </div>
+            </a>
           ))}
         </div>
 

@@ -65,10 +65,10 @@ function Navbar() {
                 <div className={`w-5 h-1 bg-green-500 transtion-all duration-[.5s] ${isOpen ? 'transform translate-x-[-1px] translate-y-[-8px] rotate-[45deg]' : ''}`}></div>
             </div>
         </nav>
-        <div className={`flex items-center justify-center relative z-[1000] md:hidden transition-all duration-[.5s] ${isOpen ? 'h-[200px]' : 'h-0'}`}>
+        <div className={`flex items-center justify-center relative z-[1000] md:hidden transition-all duration-[.5s] bg-custom-bg bg-cover ${isOpen ? 'h-[200px]' : 'h-0'}`}>
             <ul className={`leading-10 text-center ${isOpen ? 'block' : 'hidden'}`}>
                 <a href="/">
-                    <FontAwesomeIcon className='text-green-700' icon={faHouse}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='text-white' icon={faHouse}></FontAwesomeIcon>
                 </a>
                 <li><a href="/search">FindHome</a></li>
                 <li><a href="/agent">Agent</a></li>

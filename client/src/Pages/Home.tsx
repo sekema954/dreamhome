@@ -39,7 +39,7 @@ function Home() {
 
     return (
         <>
-            <div className="bg-custom-bg bg-cover relative h-screen">
+            <div className="bg-custom-bg bg-cover relative h-screen w-screen">
                 <div className="absolute left-0 bottom-0">
                     <img className='' src={decor} alt="" />
                 </div>
@@ -47,7 +47,7 @@ function Home() {
                 <div className="grid md:grid-cols-2 h-full">
                     {/**cols1 */}
                     <div className="flex items-center justify-center text-white z-[1000] md:py-0 py-[30px]">
-                        <div>
+                        <div className="w-screen">
                             <div data-aos='zoom-in' className="px-[75px]">
                                 <div className="my-4">
                                     <p className="font-[800] text-[25px] md:text-[45px]">Helping You Find Your Dream Home</p>
@@ -74,11 +74,11 @@ function Home() {
             <div className="bg-green-100">
                 <div className="py-[40px] md:py-[80px] flex items-center justify-center">
                     <div>
-                        <div className="flex justify-center text-center">
+                        <div data-aos='zoom-in' className="flex justify-center text-center">
                             <p className="text-green-600 text-[25px] md:text-[35px] font-[700]">Our Services</p>
                         </div>
                         <div className="flex justify-center text-center">
-                            <p>Dream Home is here to be the solution for you</p>
+                            <p data-aos='zoom-in' >Dream Home is here to be the solution for you</p>
                         </div>
                     </div>
                 </div>

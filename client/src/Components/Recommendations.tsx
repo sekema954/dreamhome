@@ -1,6 +1,10 @@
 import thumbnail from '../assets/house.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBed, faBath, faGlobe } from '@fortawesome/free-solid-svg-icons';
+//AOS SCROLL ANIMATION LIBRARY
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Recommendations() {
     const RecommendedHouses = [
@@ -12,15 +16,19 @@ function Recommendations() {
         { id: 6 }
     ];
 
+    useEffect(()=>{
+        AOS.init();
+    });
+
     return (
         <section className='bg-green-100 py-12'>
             <div className='container mx-auto px-4'>
-                <div className="text-center mb-8">
+                <div data-aos='zoom-in' className="text-center mb-8">
                     <p className="font-semibold text-green-700 text-2xl md:text-3xl">Home Recommendations For You</p>
                 </div>
                 <div className="flex flex-wrap gap-6 justify-center">
                     {RecommendedHouses.map(home => (
-                        <a href="" key={home.id} className="w-full sm:w-80 md:w-96 lg:w-[380px]">
+                        <a href="/listing" key={home.id} className="w-full sm:w-80 md:w-96 lg:w-[380px]">
                             <div className="border shadow-lg bg-white rounded-lg overflow-hidden">
                                 {/* House Thumbnail */}
                                 <div className="w-full h-48 md:h-60 bg-white">

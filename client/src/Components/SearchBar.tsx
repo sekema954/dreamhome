@@ -10,9 +10,9 @@ function SearchBar() {
   return (
     <div className="w-full max-w-4xl mx-auto p-4">
       <div className="flex flex-wrap gap-2 mb-4">
-        <p onClick={()=>setActive('sell')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'sell' ? 'bg-green-200': ''}`}>Sell</p>
-        <p onClick={()=>setActive('rent')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'rent' ? 'bg-green-200': ''}`}>Rent</p>
-        <p onClick={()=>setActive('buy')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'buy' ? 'bg-green-200' : ''}`}>Buy</p>
+        <p onClick={()=>setActive('sell')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'sell' ? 'bg-green-300': ''}`}>Sell</p>
+        <p onClick={()=>setActive('rent')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'rent' ? 'bg-green-300': ''}`}>Rent</p>
+        <p onClick={()=>setActive('buy')} className={`px-4 py-2 bg-white rounded-t-md border cursor-pointer flex-1 text-center ${isActive === 'buy' ? 'bg-green-300' : ''}`}>Buy</p>
       </div>
 
       {isActive === 'sell' &&(
@@ -25,7 +25,7 @@ function SearchBar() {
                     name="search"
                     id="search"
                     placeholder="Enter location, ID, Property"
-                    className="focus:outline-none"
+                    className="focus:outline-none w-full"
                 />
             </div>
 

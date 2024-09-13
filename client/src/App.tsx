@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import Agent from './Pages/Agent';
+import Listing from './Pages/Listing';
 import Findhome from './Pages/FindHome';
 import Contact from './Pages/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/agent' element={<Agent />}></Route>
           <Route path='/search' element={<Findhome />}></Route>
+          <Route path='/listing' element={<Listing />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='*' element={<ErrorPage />}></Route>
