@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretLeft, faCaretRight, faHeart } from '@fortawesome/free-solid-svg-icons';
 import thumbnail from '../assets/house.png';
 
 export default function Findhome() {
