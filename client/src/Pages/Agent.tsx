@@ -18,7 +18,7 @@ const Agent = () => {
           </div>
 
           {/* Agent Details */}
-          <div className="flex flex-row justify-center p-6">
+          <div className="flex flex-col justify-center p-6">
             {/* Tabs */}
             <div className="flex flex-wrap border-b border-gray-300 mb-4">
               <button
