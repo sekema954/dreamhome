@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Serve static files from the "dist" directory
+// Serve static files from the "client/dist" directory
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // Handle all other routes by sending the index.html file
