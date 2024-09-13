@@ -39,3 +39,22 @@
   background-position: center;
   background-size: cover;
 }
+
+
+
+.bg-livingroom {
+  background-image: url(./assets/features.png);
+}
+
+.bg-livingroom2 {
+  background-image: url(./assets/livingroom2.png);
+}
+
+.bg-kitchen {
+  background-image: url(./assets/kitchen.png);
+
+}
+
+.bg-bedroom {
+  background-image: url(./assets/bedroom.png);
+}
