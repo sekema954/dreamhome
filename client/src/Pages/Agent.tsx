@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import agentPhoto from '../assets/real-estate-agent.jpg';
 
 const Agent = () => {
