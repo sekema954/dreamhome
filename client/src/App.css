@@ -16,6 +16,10 @@
 }
 
 
+.bg-green{
+  background-color: rgb(59, 168, 59);
+}
+
 
 /*drop animaiton for FONTAWESOME ICON Home.tsx line 28 */
 .drop{
