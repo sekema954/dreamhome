@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+<img src="https://i.imgur.com/6b8Q9CT.png">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+8+ years professional experience as software developer. <img src="https://raw.githubusercontent.com/DennisHartrampf/DennisHartrampf/master/img/java.svg" alt="" height="20"> Java expert. <img src="https://raw.githubusercontent.com/DennisHartrampf/DennisHartrampf/master/img/kotlin.svg" alt="" height="20"> Kotlin enthusiast. Specialised in backend development and build management.
 
-Currently, two official plugins are available:
+Fast learner and eager to explore new technologies. Able to switch between perfectionism and pragmatism. Believer in agile software development, team work and Clean Code. Always questioning the status quo and wanting to improve. Able and willing to think outside the box.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Steadily growing into people management and recently into <img src="https://raw.githubusercontent.com/DennisHartrampf/DennisHartrampf/master/img/angular.svg" alt="" height="20"> Angular.
 
-## Expanding the ESLint configuration
+<!-- https://github-readme-stats.vercel.app/api?username=DennisHartrampf&show_icons=true -->
+<p>
+  <a href="https://www.linkedin.com/in/dennis-hartrampf"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Java-Expert-_.svg?logo=java"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Kotlin-Enthusiast-_.svg?logo=kotlin"></a>
+  <a href="#"><img src="https://img.shields.io/badge/TDD-Advocate-_.svg"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Clean%20Code-Evangelist-_.svg"></a>
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<hr>
 
-- Configure the top-level `parserOptions` property like this:
+#### Want to Build Your Own?
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Do you like my profile and want to build your own? It's very simple. GitHub recently added a new feature called **Profile Readmes**. For it to work, do the following:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Create a *special* GitHub repository with your username as repository name. My username is `DennisHartrampf` so my profile readme repository has the name `DennisHartrampf`.
+1. Add a `README.md` to this repository.
+1. Put some cool content about yourself (or anything you want) into `README.md`.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+And that's about it. The `README.md` of your profile readme repository will be displayed on your profile page. If you need inspiration, you can check out [this repository](https://github.com/abhisheknaiidu/awesome-github-profile-readme) which contains a curated list of nice profile readme repositories.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+-----
+Credits: [DennisHartrampf](https://github.com/DennisHartrampf)
+
+Last Edited on: 30/08/2020
