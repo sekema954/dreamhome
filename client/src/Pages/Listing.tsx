@@ -1,24 +1,60 @@
+import { useParams } from 'react-router-dom';
 import interior from '../assets/searchbg.png';
-import listing1 from '../assets/listing1.jpg';
-import listing2 from '../assets/listing2.jpg';
-import listing3 from '../assets/listing3.jpg';
-import listing4 from '../assets/listing4.jpg';
-import listing5 from '../assets/listing5.jpg';
 import ContactForm from '../Components/ContactForm';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+interface ThumbnailsListing {
+    id: number;
+    thumbnails: string;
+    address: string;
+}
 
 function Listing() {
-    const listingImages = [
-        { id: 1, src: listing1, alt: 'icon' },
-        { id: 2, src: listing2, alt: 'icon' },
-        { id: 3, src: listing3, alt: 'icon' },
-        { id: 4, src: listing4, alt: 'icon' },
-        { id: 5, src: listing5, alt: 'icon' }
-    ];
+    const [isthumbnail, setThumbnail] = useState<ThumbnailsListing[]>([]);
+    const [isActive, setIsActive] = useState<string>(interior);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+    const { id } = useParams();
 
-    const [isActive, setIsActive] = useState(interior);
+    useEffect(() => {
+        const fetchImages = async () => {
+            const url = `http://localhost:3001/listings/${id}`;
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    throw new Error(`HTTP request failed with status: ${response.status}`);
+                }
+                const result = await response.json();
+                console.log("API Response:", result);
 
-    const handleActive = (src:string) => {
+                // Ensure thumbnails is an array before mapping
+                if (Array.isArray(result.thumbnails)) {
+                    setThumbnail(result.thumbnails.map((thumbnail: string, index: number) => ({
+                        id: index + 1, // Create a unique id for each thumbnail
+                        thumbnails: thumbnail, // This is now a single string
+                        address: result.address, 
+                    })));
+                } else {
+                    console.error("Thumbnails not found in response.");
+                    setError("No thumbnails found.");
+                }
+            } catch (error) {
+                setError('Failed to fetch images. Please try again later.');
+                console.error(error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchImages();
+    }, [id]);
+
+    const handleActive = (src: string) => {
         setIsActive(src);
     };
 
@@ -29,18 +65,22 @@ function Listing() {
                     <img className='w-full h-full object-cover' src={isActive} alt="Main Display" />
                 </div>
                 <div className='flex flex-wrap py-4 gap-4 items-center justify-center'>
-                    {listingImages.length > 0 ? (
-                        listingImages.map(image => (
+                    {loading ? (
+                        <p className='text-center'>Loading images...</p>
+                    ) : error ? (
+                        <p>{error}</p>
+                    ) : isthumbnail.length > 0 ? (
+                        isthumbnail.map(image => (
                             <div
-                                key={image.id}
-                                onClick={() => handleActive(image.src)}
-                                className={`w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] border border-gray-300 shadow-xl cursor-pointer ${isActive === image.src ? 'border-green-500' : ''}`}
+                                key={image.id} // Ensure image.id is unique for each thumbnail
+                                onClick={() => handleActive(image.thumbnails)}
+                                className={`w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] border border-gray-300 shadow-xl cursor-pointer ${isActive === image.thumbnails ? 'border-green-500' : ''}`}
                             >
-                                <img className='w-full h-full object-cover' src={image.src} alt={image.alt} />
+                                <img className='w-full h-full object-cover' src={image.thumbnails} alt={`Thumbnail of ${image.address}`} />
                             </div>
                         ))
                     ) : (
-                        <p>No images were found for this property. Contact Agent</p>
+                        <p className='text-center'>No images were found for this property. Contact Agent</p>
                     )}
                 </div>
             </div>

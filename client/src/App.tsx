@@ -22,7 +22,7 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/agent' element={<Agent />}></Route>
           <Route path='/search' element={<Findhome />}></Route>
-          <Route path='/listing' element={<Listing />}></Route>
+          <Route path='/listing/:id' element={<Listing />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='*' element={<ErrorPage />}></Route>

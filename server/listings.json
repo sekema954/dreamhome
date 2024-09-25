@@ -1,0 +1,525 @@
+{
+    "dreamhomes": [
+      {
+        "id": "1",
+        "price": "140000",
+        "address": "203 Gatekeep",
+        "zip": "20321",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "sqft": "1200",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "2",
+        "price": "250000",
+        "address": "45 Sunnyvale",
+        "zip": "20432",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "4",
+        "bathrooms": "3",
+        "sqft": "1800",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "3",
+        "price": "320000",
+        "address": "789 Hillcrest",
+        "zip": "30501",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "5",
+        "bathrooms": "4",
+        "sqft": "2500",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "4",
+        "price": "180000",
+        "address": "66 Maple St",
+        "zip": "30301",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "sqft": "1500",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "5",
+        "price": "275000",
+        "address": "123 River Bend",
+        "zip": "30201",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "4",
+        "bathrooms": "3",
+        "sqft": "2200",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "6",
+        "price": "150000",
+        "address": "555 Park Ave",
+        "zip": "30302",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "sqft": "900",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "7",
+        "price": "450000",
+        "address": "34 Sunset Blvd",
+        "zip": "30303",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "6",
+        "bathrooms": "4",
+        "sqft": "3000",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "8",
+        "price": "190000",
+        "address": "999 Oak Dr",
+        "zip": "30304",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "sqft": "1300",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "9",
+        "price": "300000",
+        "address": "888 Elm St",
+        "zip": "30305",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "5",
+        "bathrooms": "3",
+        "sqft": "2600",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "10",
+        "price": "225000",
+        "address": "456 Birch Ln",
+        "zip": "30306",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "4",
+        "bathrooms": "2",
+        "sqft": "2000",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+      
+      {
+        "id": "11",
+        "price": "160000",
+        "address": "1212 Cedar Ave",
+        "zip": "30307",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "3",
+        "bathrooms": "1",
+        "sqft": "1100",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "12",
+        "price": "300000",
+        "address": "234 Main St",
+        "zip": "30308",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "4",
+        "bathrooms": "2",
+        "sqft": "2300",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "13",
+        "price": "340000",
+        "address": "987 Spruce Dr",
+        "zip": "30309",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "5",
+        "bathrooms": "4",
+        "sqft": "2800",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "14",
+        "price": "170000",
+        "address": "12 Pine Ct",
+        "zip": "30310",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "sqft": "1400",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "15",
+        "price": "400000",
+        "address": "77 Valley Rd",
+        "zip": "30311",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "6",
+        "bathrooms": "4",
+        "sqft": "3500",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "16",
+        "price": "220000",
+        "address": "33 Meadow Ln",
+        "zip": "30312",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "4",
+        "bathrooms": "2",
+        "sqft": "2000",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "17",
+        "price": "155000",
+        "address": "44 Woodland Dr",
+        "zip": "30313",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "sqft": "950",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "18",
+        "price": "275000",
+        "address": "78 Ocean Ave",
+        "zip": "30314",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "4",
+        "bathrooms": "3",
+        "sqft": "2200",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "19",
+        "price": "290000",
+        "address": "11 Lighthouse Ln",
+        "zip": "30315",
+        "state": "GA",
+        "type": "Rent",
+        "bedrooms": "5",
+        "bathrooms": "4",
+        "sqft": "2500",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      },
+
+      {
+        "id": "20",
+        "price": "360000",
+        "address": "22 Stoneway Ct",
+        "zip": "30316",
+        "state": "GA",
+        "type": "Sale",
+        "bedrooms": "5",
+        "bathrooms": "3",
+        "sqft": "3000",
+        "image": "https://i.imgur.com/xzYPRAk.png",
+        "thumbnails": [
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg",
+          "https://i.imgur.com/yrD5k12.jpeg"
+        ]
+      }
+    ],
+
+    "recommended" : [
+        {
+            "id": "21",
+            "price": "215000",
+            "address": "14 Riverwalk",
+            "zip": "30317",
+            "state": "GA",
+            "type": "Sale",
+            "bedrooms": "3",
+            "bathrooms": "2",
+            "sqft": "1600",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/C0snykE.png",
+              "https://i.imgur.com/bKDeexO.jpeg",
+              "https://i.imgur.com/C0snykE.png",
+              "https://i.imgur.com/UCwesL7.jpeg",
+              "https://i.imgur.com/UCwesL7.jpeg"
+            ]
+          },
+
+          {
+            "id": "22",
+            "price": "340000",
+            "address": "88 Summit Dr",
+            "zip": "30318",
+            "state": "GA",
+            "type": "Rent",
+            "bedrooms": "4",
+            "bathrooms": "3",
+            "sqft": "2800",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg"
+            ]
+          },
+
+          {
+            "id": "23",
+            "price": "175000",
+            "address": "7 Pine St",
+            "zip": "30319",
+            "state": "GA",
+            "type": "Sale",
+            "bedrooms": "2",
+            "bathrooms": "1",
+            "sqft": "1000",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg"
+            ]
+          },
+
+          {
+            "id": "24",
+            "price": "220000",
+            "address": "4 Willow Way",
+            "zip": "30320",
+            "state": "GA",
+            "type": "Rent",
+            "bedrooms": "3",
+            "bathrooms": "2",
+            "sqft": "1400",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg"
+            ]
+          },
+
+          {
+            "id": "25",
+            "price": "310000",
+            "address": "50 Westfield Dr",
+            "zip": "30321",
+            "state": "GA",
+            "type": "Sale",
+            "bedrooms": "5",
+            "bathrooms": "4",
+            "sqft": "3500",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg"
+            ]
+          },
+
+          {
+            "id": "26",
+            "price": "190000",
+            "address": "22 Oak Hill",
+            "zip": "30322",
+            "state": "GA",
+            "type": "Rent",
+            "bedrooms": "2",
+            "bathrooms": "1",
+            "sqft": "950",
+            "image": "https://i.imgur.com/xzYPRAk.png",
+            "thumbnails": [
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg",
+              "https://i.imgur.com/yrD5k12.jpeg"
+            ]
+          }
+    ]
+  }
