@@ -9,7 +9,7 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 // CORS configuration for backend API access
 const corsOptions = {
-  origin: ['http://localhost:3001', 'https://dreamhome-1d9852268c2c.herokuapp.com/'],  // Adjust this for frontend URL
+  origin: ['http://localhost:5174', 'https://dreamhome-1d9852268c2c.herokuapp.com/'],  // Adjust this for frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
