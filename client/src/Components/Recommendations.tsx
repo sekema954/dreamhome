@@ -27,8 +27,7 @@ function Recommendations() {
     useEffect(()=>{
         AOS.init();
         const fetchRecommendedListings = async()=>{
-        const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
-            const url = `${apiUrl}/listings`
+        const url = 'https://dreamhome-1d9852268c2c.herokuapp.com/listings'
             const options = {
                 method: 'GET',
                 headers:{
