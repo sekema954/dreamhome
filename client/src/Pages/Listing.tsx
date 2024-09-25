@@ -18,7 +18,8 @@ function Listing() {
 
     useEffect(() => {
         const fetchImages = async () => {
-            const url = `http://localhost:3001/listings/${id}`;
+            const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+            const url = `${apiUrl}/listings/${id}`;
             const options = {
                 method: 'GET',
                 headers: {

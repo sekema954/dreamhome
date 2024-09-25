@@ -27,7 +27,8 @@ function Recommendations() {
     useEffect(()=>{
         AOS.init();
         const fetchRecommendedListings = async()=>{
-            const url = `http://localhost:3001/listings`;
+        const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+            const url = `${apiUrl}/listings`
             const options = {
                 method: 'GET',
                 headers:{
