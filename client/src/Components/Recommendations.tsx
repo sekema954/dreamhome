@@ -45,7 +45,7 @@ function Recommendations() {
                 console.log(`Recommended Listings: ${recommendedHouses}`);
             }
             catch(error) {
-                console.error(`Failed to fetch listings from API`);
+                console.error(`Failed to fetch listings from API ${error}`);
             }
         };
         fetchRecommendedListings();
