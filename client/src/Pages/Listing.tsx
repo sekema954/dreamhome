@@ -18,8 +18,7 @@ function Listing() {
 
     useEffect(() => {
         const fetchImages = async () => {
-            const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
-            const url = `${apiUrl}/listings/${id}`;
+            const url = `https://dreamhome-1d9852268c2c.herokuapp.com/listings/${id}`;
             const options = {
                 method: 'GET',
                 headers: {
