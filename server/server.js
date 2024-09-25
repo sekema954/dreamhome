@@ -7,8 +7,14 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
-app.use(cors());
-app.use(express.static(path.join(__dirname, '../client/dist')));
+// CORS configuration for backend API access
+const corsOptions = {
+  origin: ['http://localhost:3001', 'https://dreamhome-1d9852268c2c.herokuapp.com/'],  // Adjust this for frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+};
+app.use(cors(corsOptions));app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // Get JSON file for property listings
 app.get('/listings', (req, res) => {
