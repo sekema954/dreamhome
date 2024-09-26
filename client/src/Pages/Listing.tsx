@@ -72,7 +72,7 @@ function Listing() {
                     ) : isthumbnail.length > 0 ? (
                         isthumbnail.map(image => (
                             <div
-                                key={image.id} // Ensure image.id is unique for each thumbnail
+                                key={image.id}
                                 onClick={() => handleActive(image.thumbnails)}
                                 className={`w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] border border-gray-300 shadow-xl cursor-pointer ${isActive === image.thumbnails ? 'border-green-500' : ''}`}
                             >
@@ -80,7 +80,7 @@ function Listing() {
                             </div>
                         ))
                     ) : (
-                        <p className='text-center'>No images were found for this property. Contact Agent</p>
+                        <p className='text-center'>No images were found for this property.<a href='mailto:test@gmail.com'>Contact Agent</a></p>
                     )}
                 </div>
             </div>
