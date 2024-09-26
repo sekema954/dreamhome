@@ -18,7 +18,7 @@ function Listing() {
 
     useEffect(() => {
         const fetchImages = async () => {
-            const url = `https://dreamhome-1d9852268c2c.herokuapp.com/${id}`;
+            const url = `https://dreamhome-1d9852268c2c.herokuapp.com/listings/${id}`;
             const options = {
                 method: 'GET',
                 headers: {
