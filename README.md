@@ -34,7 +34,7 @@ Welcome to the Real Estate Site project! This application is designed to showcas
 This is a full-stack real estate website with a React frontend and a separate backend server. The project is structured to separate the client (frontend) and server (backend) components.
 
 
-<h1Installation</h1>
+<h1>Installation</h1>
 To get started with the project, follow these steps:
 
 Clone the Repository
